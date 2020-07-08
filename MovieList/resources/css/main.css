@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display:flex; 
+    flex-direction:column; 
+}
+
+.container{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+header{
+    align-items: center;
+    padding:50px;
+    
+}
+
+.logo{
+    display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+ 
+}
+
+.movieC{
+    padding-left: 20px;
+    left: 50%;
+    top: 50%;;
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+    padding-top: 50px;
+    align-items: center;
+
+    transition: 0.5s ease-out;
+/* i put this transition because when you move the mouse cursor over an other image it looks natural */
+    
+
+}
+
+/* below we have the image transition to make it a bit bigger */
+
+.movieC:hover
+{
+    transition: 0.5s ease-in;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.image{
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  color: rgba(170, 170, 170, 0.8)
+}
+
+.title{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.actors{
+    padding-top: 3px;
+    color: rgba(170, 170, 170, 0.8)
+}
+a{
+    text-align: center;
+}
