@@ -48,10 +48,8 @@ body{
     transition: 0.5s ease-in;
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
-        transform: scale(0.9);
+        transform: scale(0.9);      
 }
-
-
 
 .post-container {
     margin: 20px 20px 0 0;  
@@ -118,3 +116,5 @@ footer{
   .image{
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
   }
+
+ 
