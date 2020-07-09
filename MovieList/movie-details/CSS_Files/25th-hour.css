@@ -6,26 +6,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    display:flex; 
-    flex-direction:column; 
-}
 
-.container{
 
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    padding: 70px;
-    
-}
+
 
 
 .logo{
@@ -47,9 +30,7 @@ body{
 
 .movieC:hover
 {
-    transition: 0.5s ease-in;
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
+    
         transform: scale(0.9);      
 }
 
@@ -65,16 +46,13 @@ body{
     justify-content: space-around;
     padding: 70px;
 }
-.post-thumb {
-    float: left
-}
-.post-thumb img {
-    display: block
-    
-}
+
+
+
 .post-content {
     margin-left:50px;
 }
+
 .post-title {
     margin-bottom: 15px;
     font-weight: bold;
@@ -96,10 +74,7 @@ footer{
       font-weight: 200;
   }
 
-.inline{
-    display: inline;
-    line-height: 18px;
-}
+
 
   h4.inline{
     display: inline;
