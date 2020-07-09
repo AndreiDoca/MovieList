@@ -36,12 +36,13 @@ body{
  
 }
 
-/* .title{
-    position: absolute;
-  left: 150px;
-  width: 200px;
-  height: 120px;
-} */
+/* This is for the transition to look more natural when the image goes to the initial form */
+
+.movieC{
+    transition: 0.5s ease-in; 
+  }
+
+ /* ===== */
 
 .movieC:hover
 {
